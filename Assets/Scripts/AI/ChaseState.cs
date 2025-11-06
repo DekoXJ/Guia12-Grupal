@@ -3,12 +3,6 @@ using UnityEngine;
 public class ChaseState : AIState
 {
     public ChaseState(AIController controller) : base(controller) { }
-<<<<<<< HEAD
-    public override void OnEnter() { }
-    public override void UpdateState() { }
-    public override void OnExit() { }
-}
-=======
 
     public override void OnEnter()
     {
@@ -31,4 +25,3 @@ public class ChaseState : AIState
 
     public override void OnExit() { }
 }
->>>>>>> aed9e1a1b150b1eacffd413ff564bc5fbda013d6

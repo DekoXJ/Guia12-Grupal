@@ -3,11 +3,6 @@ using UnityEngine;
 public class PatrolState : AIState
 {
     public PatrolState(AIController controller) : base(controller) { }
-<<<<<<< HEAD
-    public override void OnEnter() { }
-    public override void UpdateState() { }
-    public override void OnExit() { }
-=======
 
     private int _currentWaypointIndex = 0;
 
@@ -42,5 +37,4 @@ public class PatrolState : AIState
         m_agent.destination = m_controller.waypoints[_currentWaypointIndex].position;
         _currentWaypointIndex = (_currentWaypointIndex + 1) % m_controller.waypoints.Length;
     }
->>>>>>> aed9e1a1b150b1eacffd413ff564bc5fbda013d6
 }
